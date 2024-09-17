@@ -12,16 +12,35 @@ The frontend is a React application that allows users to search for, view, and m
    ```bash
    git clone https://github.com/your-username/quote-api-project.git
    cd quote-api-project/frontend
+   
 ## 🔧 Features
-- Search Quotes: Search for quotes by keywords.
+- Search Quotes: Search for quotes by author name.
 - View Quotes: Display a list of quotes fetched from the backend.
-- Filter Quotes: Filter quotes based on various criteria.
+- Filter Quotes: Filter quotes based on their state.
 - Add Quotes: Option to add new quotes via the form (if enabled).
+  
 ## 📂 Project Structure
 - src/: Contains all the source files for the frontend application.
 - components/: React components used in the application.
 - context/: Context API setup for managing global state.
 - App.js: Main application component.
 - index.js: Entry point for the React application.
+- 
 ## 🗄️ Backend
 The backend is a Node.js application with Express.js that provides RESTful endpoints for managing quotes.
+
+### API Endpoints
+- GET /: Fetch all quotes.  ||  /quotes/:id fetch quote by id
+- POST /api/quotes: Add a new quote.
+- PATCH /quotes/:id: Add a new quote.
+- DELETE /quotes/:id: Delete a quote by ID.
+
+## 📂 Project Structure
+- src/: Contains all the source files for the backend application.
+- routes/: Defines the API routes.
+- models/: Database models.
+- index.js: Entry point for the backend application.
+  
+## 🛠️ Technologies Used
+- Frontend: React, CSS, Axios
+- Backend: Node.js, Express.js, MongoDB (if used)
