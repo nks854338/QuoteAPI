@@ -2,6 +2,12 @@
 
 Welcome to the **Quote API Project**! This project is designed to provide a simple yet powerful quote management system, featuring both a backend API and a frontend interface. Below you'll find detailed instructions for setting up and running both parts of the project.
 
+## Demo Links
+- **Frontend Demo**: [Click here](https://quote-api-frontend-lt1d.vercel.app/)
+- **Backend Demo**: [Click here](https://quote-api-backend.vercel.app/)
+- **Frontend Repository Link**: [Click here](https://github.com/nks854338/QuoteAPIFrontend)
+- **Backend Repository Link**: [Click here](https://github.com/nks854338/QuoteAPIBackend)
+
 ## 🖥️ Frontend
 
 The frontend is a React application that allows users to search for, view, and manage quotes.
